@@ -1202,6 +1202,7 @@ __p+='`), U
 
             function v() {
                 var g = e('<a class="w-webflow-badge"></a>').attr("href", "https://un1quely.com/"),
+                    b=e("<img>").attr("src","").attr("alt","").css({marginRight:"8px",width:"16px"}),
                     S = e("<img>").attr("src", "logo.png").attr("alt", "UN1QUELY");
                 return g.append(b, S), g[0]
             }
