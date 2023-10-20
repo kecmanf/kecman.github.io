@@ -1206,7 +1206,7 @@ __p+='`), U
                         marginRight: "8px",
                         width: "16px"
                     }),
-                    S = e("<img>").attr("src", "un1logo.png").attr("alt", "UN1QUELY");
+                    S = e("<img>").attr("src", "un1.png").attr("alt", "UN1QUELY");
                 return g.append(b, S), g[0]
             }
 
