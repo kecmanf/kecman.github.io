@@ -1206,7 +1206,7 @@ __p+='`), U
                         marginRight: "8px",
                         width: "16px"
                     }),
-                    //S = e("<img>").attr("src", "https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg").attr("alt", "Made in Webflow");
+                    S = e("<img>").attr("src", "https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg").attr("alt", "Made in Webflow");
                 return g.append(b, S), g[0]
             }
 
