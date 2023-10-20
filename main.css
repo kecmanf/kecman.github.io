@@ -425,10 +425,12 @@ p {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 16px;
+  letter-spacing: -0.5px;
 }
 
 li {
   font-size: 16px;
+  letter-spacing: -0.5px;
 }
 
 blockquote {
