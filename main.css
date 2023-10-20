@@ -293,6 +293,7 @@ html[data-w-dynpage] [data-w-cloak] {
 }
 
 .w-webflow-badge, .w-webflow-badge * {
+  color: #000;
   z-index: auto;
   visibility: visible;
   box-sizing: border-box;
@@ -346,7 +347,7 @@ html[data-w-dynpage] [data-w-cloak] {
 }
 
 .w-webflow-badge {
-  color: #000
+  color: #000;
   white-space: nowrap;
   cursor: pointer;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .1);
@@ -374,6 +375,7 @@ html[data-w-dynpage] [data-w-cloak] {
 }
 
 .w-webflow-badge > img {
+  color: #000;
   visibility: visible !important;
   opacity: 1 !important;
   vertical-align: middle !important;
