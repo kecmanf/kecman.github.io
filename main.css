@@ -207,6 +207,7 @@ td, th {
 
 .w-icon-nav-menu:before {
   content: "MENU";
+  font-family: Hacked Kerx, sans-serif;
 }
 
 .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
